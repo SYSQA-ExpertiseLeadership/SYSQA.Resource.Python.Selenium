@@ -39,7 +39,7 @@ De volgende stappen moet je nemen voor dat je aan dit project kunt beginnen.
 * Installeer de benodigde software:
     * [Download en installeer Python 3](https://www.python.org/downloads/);
     * [Download en installeer Visual Studio Code](https://code.visualstudio.com/).
-* Clone de gitrepository of [download de zip hier](https://github.com/SYSQA-ExpertiseLeadership/SYSQA.Resource.Python.Selenium-/archive/master.zip).
+* Clone de gitrepository of [download de zip hier](https://github.com/SYSQA-ExpertiseLeadership/SYSQA.Resource.Python.Selenium/archive/master.zip).
 * Controleer of 'python' en 'pip' in je path staan:
     * Open een terminal (Windowstoets + R, type 'cmd', druk op ENTER);
     * Type 'python --version' en druk op Enter. Type 'pip --version' en druk op enter.
