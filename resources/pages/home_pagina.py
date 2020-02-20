@@ -28,7 +28,7 @@ from resources import basepage as BP
 #######################
 
 def gebruik_zoekbalk(zoekterm):
-    '''Benadert de inlogpagina, en logt in als behandelaar'''
+    '''Vul de zoekbalk in, en klik op zoeken'''
 
     vul_zoekbalk_in(zoekterm)
     click_zoeken()
@@ -39,17 +39,17 @@ def gebruik_zoekbalk(zoekterm):
 #####################
 
 def benader_home_pagina():
-    '''Benadert de URL van de inlogpagina voor behandelaars.'''
+    '''Benadert de URL van mvnrepository'''
     BP.go_to_url(data.URL)
 
 
 def vul_zoekbalk_in(waarde):
-    '''Vult het veld voor de inlognaam in.'''
+    '''Vult de zoekbalk in.'''
     BP.write(LOCATORS["Zoekbalk"], waarde)
 
 
 def click_zoeken():
-    '''Klik op 'Inloggen'.'''
+    '''Klik op 'Search'.'''
     BP.click(LOCATORS["Zoekknop"])
 
 ############

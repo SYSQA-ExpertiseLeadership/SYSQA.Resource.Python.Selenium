@@ -1,0 +1,22 @@
+{
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "ENV": true,
+        "**/.git": true
+    },
+    "python.jediEnabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "--ignored-modules=resources",
+        "--extension-pkg-whitelist=resources"
+    ],
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.pythonPath": "ENV\\Scripts\\python.exe"
+}
